@@ -1,6 +1,24 @@
-title: Obaidullah Bhuiyan
-logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+title: Your Portfolio
+email: your.email@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A portfolio showcasing my work as a data scientist and developer.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourwebsite.com" # the base hostname & protocol for your site
 
+# To enable navigation links in the header
+theme: minima
+paginate: 5
+
+# Navigation Links
+# Include these to allow easy navigation to your sections
+navbar_links:
+  - title: About
+    url: "#about"
+  - title: Education
+    url: "#education"
+  - title: Work Experience
+    url: "#work-experience"
+  - title: Projects
+    url: "#projects"
+  - title: Contact
+    url: "#contact"
